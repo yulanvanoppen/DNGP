@@ -135,9 +135,7 @@ for Ridx = 1:length(R_values)%, for seed = seeds
     
     
     %% Posterior probabilities and plot
-    E = reshape(expectations(:, seed, Ridx), 1, []);
-
-    % [E, MAP] = probabilities([.25 .85], model, model1, model2);
+    [E, MAP] = probabilities([.25 .85], model, model1, model2);
     
     close all
     % save('simulation/covariance.mat')

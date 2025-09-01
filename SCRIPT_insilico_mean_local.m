@@ -116,9 +116,7 @@ for Ridx = 1:3%, for seed = 1:10
     
     
     %% Posterior probabilities and plot
-    E = reshape(expectations(:, seed, Ridx), 1, []);
-
-    % [E, MAP] = probabilities([.25 .75], model, model1, model2);
+    [E, MAP] = probabilities([.25 .75], model, model1, model2);
 
     close all
     % save('simulation/meanlocal.mat')
