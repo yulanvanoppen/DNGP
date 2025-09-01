@@ -13,4 +13,4 @@ Run `SCRIPT_Sfp1.m` and `Script_Sfp1_Tod6.m` to reproduce the results in Figures
 &nbsp;
 
 ## References
-[1] van Oppen, Yulan B. (2015). _Beyond the average: Computational Approaches for Analyzing and Modeling Cellular Variability._ [Doctoral dissertation, University of Groningen].
+[1] van Oppen, Yulan B. (2025). _Beyond the average: Computational Approaches for Analyzing and Modeling Cellular Variability._ [Doctoral dissertation, University of Groningen].
